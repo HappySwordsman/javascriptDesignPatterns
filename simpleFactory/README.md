@@ -12,7 +12,7 @@
 #场景
 * 1.jQuery - $('div')
 * $('div')和 new $('div')有何区别？
-* 第一:书写麻烦，jQuery的练市操作将成为噩梦
+* 第一:书写麻烦，jQuery的链式操作将成为噩梦
 * 第二:一旦jQuery名字变化，将是灾难性的
 ![avatar](https://github.com/wsyxl365/javascriptDesignPatterns/blob/master/simpleFactory/readmeImages/simpleFactory-03.png)
 * 2.React.createElement
@@ -21,5 +21,5 @@
 * 3.vue异步组件
 ![avatar](https://github.com/wsyxl365/javascriptDesignPatterns/blob/master/simpleFactory/readmeImages/simpleFactory-06.png)
 #设计原则验证
-*构造函数和创建者分离
-*符合开放封闭原则
+* 构造函数和创建者分离
+* 符合开放封闭原则
