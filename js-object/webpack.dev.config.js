@@ -1,10 +1,12 @@
 /**
  * Created by Administrator on 2018/9/4 0004.
  */
+const entryTestType = require("./entryTestType/index");
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+
 module.exports = {
-	entry: './src/index.js',
+	entry: entryTestType.simpleFactory,
 	output: {
 		path: __dirname,
 		filename: './release/bundle.js'
