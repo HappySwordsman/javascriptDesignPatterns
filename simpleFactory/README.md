@@ -6,19 +6,20 @@
 * 你去购买汉堡，直接点餐、取餐，不会自己亲手做<br>
 * 商店要"封装"做汉堡的工作，做好直接给买者<br>
 ## UML类图
-*此处为图片
+![avatar](http://api.gosolo.top/js-object-imgs/simpleFactory/simpleFactory-01.png)
 ## 简化后的JS类图
-*此处为图片
+![avatar](http://api.gosolo.top/js-object-imgs/simpleFactory/simpleFactory-02.png)
 #场景
 * 1.jQuery - $('div')
 * $('div')和 new $('div')有何区别？
 * 第一:书写麻烦，jQuery的练市操作将成为噩梦
 * 第二:一旦jQuery名字变化，将是灾难性的
-*此处为图片
+![avatar](http://api.gosolo.top/js-object-imgs/simpleFactory/simpleFactory-03.png)
 * 2.React.createElement
-*此处为图片
+![avatar](http://api.gosolo.top/js-object-imgs/simpleFactory/simpleFactory-04.png)
+![avatar](http://api.gosolo.top/js-object-imgs/simpleFactory/simpleFactory-05.png)
 * 3.vue异步组件
-*此处为图片
+![avatar](http://api.gosolo.top/js-object-imgs/simpleFactory/simpleFactory-06.png)
 #设计原则验证
 *构造函数和创建者分离
 *符合开放封闭原则
